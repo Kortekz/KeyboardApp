@@ -9,28 +9,29 @@
   font-family: "Poppins", sans-serif;
 }
 body{
-  background: #d8d8d8;
+  background: #484848;
 }
 .keyboard{
   margin: 100px auto;
-  width: 1100px;
-  border: 2px solid black;
-  border-radius: 10px;
+  width: 1295px;
+  border: 2px solid #fff;
+  border-radius: 0.5rem;
 }
 button{
   margin: 10px;
   width: 70px;
   height: 70px;
-  font-size: 16px;
+  font-size: 18px;
   background: #d8d8d8;
   border-radius: 0.5rem;
   cursor: pointer;
   border: 1px solid #e8e8e8;
   transition: all 0.3s;
-  box-shadow: 6px 6px 12px #afafaf, -6px -6px 12px #e0e0e0;
 }
 button:hover{
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: white;
 }
 button:active{
     box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #fff;
@@ -45,13 +46,13 @@ i{
   width: 128px;
 }
 .threeBtn{
-  width: 146px;
+  width: 150px;
 }
 .fourBtn{
-  width: 90px !important;
+  width: 135px !important;
 }
 .space{
-  width: 335px !important;
+  width: 444px !important;
 }
 .four button{
   width: 60px;
