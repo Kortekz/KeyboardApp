@@ -43,6 +43,9 @@ button:active{
 i{
   font-size: 22px;
 }
+.delete{
+  width: 100px;
+}
 .oneBtn{
   width: 100px;
 }
@@ -50,13 +53,13 @@ i{
   width: 128px;
 }
 .threeBtn{
-  width: 150px;
+  width: 146px;
 }
 .fourBtn{
   width: 135px !important;
 }
 .space{
-  width: 444px !important;
+  width: 435px !important;
 }
 .four button{
   width: 60px;
