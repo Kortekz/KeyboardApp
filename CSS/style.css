@@ -11,19 +11,21 @@
 }
 body{
   background: #484848;
+  width: 100%;
 }
 /* Styling for the entire keyboard */
 .keyboard{
-  margin: 100px auto;
-  width: 1295px;
+  margin: 120px auto;
+  width: 1450px;
   border: 2px solid #fff;
   border-radius: 0.5rem;
+  padding: 0; /* Remove padding for the entire keyboard */
 }
 
 /* Styling for the buttons */
 button{
-  margin: 10px;
-  width: 70px;
+  margin: 5px;
+  width: 60px;
   height: 70px;
   font-size: 18px;
   background: #d8d8d8;
@@ -63,4 +65,16 @@ i{
 }
 .four button{
   width: 60px;
+}
+.Num{
+  width: 80px;
+}
+.zero{
+  width: 135px !important;
+}
+.plus{
+  height: 135px;
+}
+.enter{
+  height: 135px;
 }
